@@ -101,14 +101,15 @@ TX_InitWaitLoop:
 ; Send boot message
 ;
     clrf    StringOutIdx    ; Set String output index to first character
-    goto    BootMessage
 BootMessageLoop:
-    call    TX_out
-BootMessage:
     movlw   aszHello        ; Pointer to string we are sending
     call    GetNextCharacter
     iorlw   0
-    bnz     BootMessageLoop
+    bz      Done
+    call    TX_out
+    goto    BootMessageLoop
+Done:
+
 hang:
     goto    hang
 

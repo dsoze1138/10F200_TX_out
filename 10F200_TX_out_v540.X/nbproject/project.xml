@@ -3,18 +3,16 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>10F200_TX_out</name>
-            <creation-uuid>e43ea046-ffd6-4510-a2b8-b0a124e321fb</creation-uuid>
+            <name>10F200_TX_out_v540</name>
+            <creation-uuid>22d5c9c6-9ae9-4d9e-a86c-badb9cb72735</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions/>
             <cpp-extensions/>
             <header-extensions/>
-            <asminc-extensions>inc</asminc-extensions>
+            <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList>
-                <sourceRootElem>.</sourceRootElem>
-            </sourceRootList>
+            <sourceRootList/>
             <confList>
                 <confElem>
                     <name>default</name>
